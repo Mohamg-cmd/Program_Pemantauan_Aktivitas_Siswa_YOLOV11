@@ -1,0 +1,16 @@
+# Google Colab Reconfigured Dataset YAML for YOLO11 Classroom Activity Recognition
+# Primary Master Folder: MyDrive/YOLO11_AHP_SAW_IJITCS_REVALIDATION_2026
+# Original file preserved as: data_original.yaml
+
+path: /content/drive/MyDrive/YOLO11_AHP_SAW_IJITCS_REVALIDATION_2026/03_DATASET_AUDIT/YOLO11_DATASET_UNZIPPED
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+
+names:
+  0: Angkat Tangan
+  1: Berdiri
+  2: Diam
+  3: Tidur
